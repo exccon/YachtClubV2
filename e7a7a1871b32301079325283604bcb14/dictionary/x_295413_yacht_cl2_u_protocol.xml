@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="protocol" max_length="40" name="x_295413_yacht_cl2_u_protocol" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Has new damages?" max_length="40" name="u_has_new_damages" type="boolean"/>
+        <element label="Is seaworthy?" max_length="40" name="u_is_seaworthy" type="boolean"/>
+        <element label="Miles on End" max_length="40" name="u_miles_on_end" type="integer"/>
+        <element label="Miles on start" max_length="40" name="u_miles_on_start" type="integer"/>
+        <element label="Protokol" max_length="32" name="u_protocol" reference="x_295413_yacht_cl2_u_protocol" type="reference"/>
+        <element attributes="encode_utf8=false" label="Rents" max_length="32" name="u_rents" reference="x_295413_yacht_cl2_u_rents" type="reference"/>
+        <index name="index">
+            <element name="u_protocol"/>
+        </index>
+        <index name="index2">
+            <element name="u_rents"/>
+        </index>
+    </element>
+</database>

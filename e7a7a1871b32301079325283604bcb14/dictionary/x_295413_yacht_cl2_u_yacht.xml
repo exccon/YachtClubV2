@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Yacht " max_length="40" name="x_295413_yacht_cl2_u_yacht" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="price" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Cost" max_length="20" name="u_cost" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Cost per mile" max_length="20" name="u_cost_per_mile" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Margin per day" max_length="20" name="u_margin_per_day" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Margin per mile" max_length="20" name="u_margin_per_mile" type="price"/>
+        <element label="Max. attendees" max_length="40" name="u_max_attendees" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" type="string"/>
+        <element label="Price" max_length="20" name="u_price" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price per mile" max_length="20" name="u_price_per_mile" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Technical review" max_length="40" name="u_technical_review" type="glide_date"/>
+    </element>
+</database>

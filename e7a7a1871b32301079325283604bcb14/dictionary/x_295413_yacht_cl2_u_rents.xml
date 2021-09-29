@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Rents" max_length="40" name="x_295413_yacht_cl2_u_rents" type="collection">
+        <element label="Attendees" max_length="40" name="attendees" type="integer"/>
+        <element attributes="encode_utf8=false" label="Boat" max_length="32" name="boat" reference="x_295413_yachtclub_yacht" type="reference"/>
+        <element attributes="encode_utf8=false" label="Member" max_length="32" name="member" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true" label="Price" max_length="20" name="price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Rent Date End" max_length="40" name="rent_date_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Rent Date Start" max_length="40" name="rent_date_start" type="glide_date"/>
+        <element label="Protocol" max_length="32" name="u_protocol" reference="x_295413_yacht_cl2_u_protocol" type="reference"/>
+        <index name="index">
+            <element name="u_protocol"/>
+        </index>
+        <index name="index2">
+            <element name="member"/>
+        </index>
+        <index name="index3">
+            <element name="boat"/>
+        </index>
+    </element>
+</database>

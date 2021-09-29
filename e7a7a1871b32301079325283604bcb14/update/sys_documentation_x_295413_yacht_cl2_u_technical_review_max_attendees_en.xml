@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="max_attendees" label="Max. attendees" language="en" table="x_295413_yacht_cl2_u_technical_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>max_attendees</element>
+            <help/>
+            <hint/>
+            <label>Max. attendees</label>
+            <language>en</language>
+            <name>x_295413_yacht_cl2_u_technical_review</name>
+            <plural>Max. attendees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-29 08:15:01</sys_created_on>
+            <sys_id>12dfa5031b72301079325283604bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Max. attendees</sys_name>
+            <sys_package display_value="Yacht Club" source="x_295413_yacht_cl2">e7a7a1871b32301079325283604bcb14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yacht Club">e7a7a1871b32301079325283604bcb14</sys_scope>
+            <sys_update_name>sys_documentation_x_295413_yacht_cl2_u_technical_review_max_attendees_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-29 08:15:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
